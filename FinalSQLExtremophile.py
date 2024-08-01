@@ -194,7 +194,7 @@ def main():
     st.title("Biological Research Database")
     
     # Database connection inputs
-    hostname = st.sidebar.text_input("Database Hostname", value="localhost")
+    hostname = st.sidebar.text_input("Database Hostname", value="https://database-final--group-4-dx7hxc44sd6lkmqvuwbrat.streamlit.app")
     user = st.sidebar.text_input("Database User", value="root")
     password = st.sidebar.text_input("Database Password", value="password", type="password")
     database = "ProjectDB"
